@@ -7,6 +7,7 @@ A social network API designed to deliver a list of users and thoughts, with the 
 -Installation
 -Usage
 -Links
+-Credits
 -License
 
 ## Installation
@@ -21,6 +22,9 @@ Open Insomnia and use appropriate GET, PUT, POST, or DELETE routes toadd or alte
 
 ## Links
 https://drive.google.com/file/d/1rEtosdbkw0AnQpwsVSV-Tt4m1rBEutmc/view
+
+## Credits
+I worked with Nima Sherpa and Andrew Stave in the bootcamp on this assignment.
 
 ## License
 MIT License
