@@ -1,9 +1,8 @@
 const path = require('path');
-const db = require('../config/connection');
-const { Thought, User } = require(path.join(_dirname, '../models'));
+const { User, Thought } = require(path.join(__dirname, '../models'));
 
 const thoughtController = {
-    asynce getAllThoughts(req, res) {
+    async getAllThoughts(req, res) {
         try {
             const thoughtsdb = await Thought.find();
             res.json(thoughtsdb);

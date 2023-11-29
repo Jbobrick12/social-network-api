@@ -1,7 +1,8 @@
 const path = require("path");
-const { User, Thought } = require(path.join(_dirname, "../models"));
+const { User, Thought } = require(path.join(__dirname, '../models'));
 
 const userController = {
+  
   getAllUsers(req, res) {
     User.find({})
       .select("-__v")
